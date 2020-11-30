@@ -21,11 +21,12 @@ h6 {
 h1 {
   font-size: 44px;
   line-height: 56px;
-  color: #fff; }
+  color: #fff;}
 
 h2 {
   font-size: 30px;
-  line-height: 35px; }
+  line-height: 35px; 
+text-align:center;}
 
 h3 {
   font-size: 23px;
@@ -230,7 +231,7 @@ a:active {
   align-items: center; }
   .hero-area h1 {
     color: #fff;
-    font-size: 60px;
+    font-size: 55px;
     text-transform: uppercase;
     font-weight: bold;
     padding-bottom: 19px;
@@ -435,3 +436,14 @@ footer {
       footer p a:hover {
         color: #fff;
         text-decoration: none; }
+
+.pic-center{
+    display:  block;
+    background-color:  #eb9700;
+     position:  relative
+    }
+    .picimg{
+    top: calc(50% - 25px);
+    left: calc(50% - 25px);
+    position: absolute;
+    }
